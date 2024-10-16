@@ -17,6 +17,11 @@
             // lengkapi fungsi ini untuk dapat menampilkan alert yang berisikan
             // nama depan dan nama belakang sesuai dengan yang diinputkan
             // pada input
+        var depan = document.querySelector('input[name="depan"]').value;
+        var belakang = document.querySelector('input[name="belakang"]').value;
+        var fullName = depan + ' ' + belakang;
+        alert('Nama lengkap:' + fullName);
+        return false;
         }
     </script>
 </body>

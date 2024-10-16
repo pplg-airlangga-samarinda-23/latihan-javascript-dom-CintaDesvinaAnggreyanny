@@ -8,9 +8,11 @@
     <button id="tombol">Tombol</button>
 
     <script>
-        // tambahkan skrip javascript di sini
-        // untuk mengubah ukuran dan warna dari teks
-        // "Rekayasa Perangkat Lunak"
+            document.getElementById('tombol').addEventListener('click', function() {
+            var teks = document.getElementById('teks');
+            teks.style.color = 'pink'; // Mengubah warna teks menjadi pink
+            teks.style.fontSize = '24px'; // Mengubah ukuran font menjadi 24px
+        });
 
         
     </script>
